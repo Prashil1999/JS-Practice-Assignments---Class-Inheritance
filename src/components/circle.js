@@ -4,10 +4,7 @@ const Shape = require("./shape");
 
 // declare class
 class Circle extends Shape {
-  constructor() {
-    super();
-  }
-  calculateArea = () => {};
+  calculateArea() {}
 }
 
 // export class using module.exports
