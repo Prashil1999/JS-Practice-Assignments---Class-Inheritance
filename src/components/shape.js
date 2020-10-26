@@ -1,8 +1,10 @@
 // declare class
 
 // export class using module.exports
-export default class Shape {
+class Shape {
   color = "color";
   drawShape = () => {};
   calculateArea = () => {};
 }
+
+exports.Shape = Shape;
